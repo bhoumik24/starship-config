@@ -86,7 +86,7 @@ disabled = false
 format = "via [ $version]($style) "
 
 [rust]
-format = "via [󱘗 $version]($style)"
+format = "via [󱘗 $version]($style) "
 
 [golang]
 format = "via [󰟓 ($version )($mod_version )]($style) "
