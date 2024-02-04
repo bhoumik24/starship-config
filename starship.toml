@@ -94,6 +94,9 @@ format = "via [󰟓 ($version )($mod_version )]($style) "
 [java]
 symbol = " "
 
+[lua]
+format = 'via [󰢱 $version]($style) '
+
 [kubernetes]
 format = 'on [󱃾 $context\($namespace\)](cyan bold) '
 disabled = false
