@@ -1,10 +1,10 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-[](color_orange)\
+[](color_navy)\
 $os\
 $username\
-[](bg:color_yellow fg:color_orange)\
+[](bg:color_yellow fg:color_navy)\
 $directory\
 [](fg:color_yellow bg:color_aqua)\
 $git_branch\
@@ -29,20 +29,20 @@ $line_break$character"""
 palette = 'gruvbox_dark'
 
 [palettes.gruvbox_dark]
-color_fg0 = '#fbf1c7'
+color_fg0 = '#C5C9C5'
 color_bg1 = '#3c3836'
-color_bg3 = '#665c54'
-color_blue = '#458588'
-color_aqua = '#689d6a'
-color_green = '#98971a'
-color_orange = '#d65d0e'
-color_purple = '#b16286'
-color_red = '#cc241d'
-color_yellow = '#d79921'
+color_bg3 = '#8a8980'
+color_blue = '#4d699b'
+color_aqua = '#597b75'
+color_green = '#6e915f'
+color_navy = '#223249'
+color_purple = '#766b90'
+color_red = '#d7474b'
+color_yellow = '#836f4a'
 
 [os]
 disabled = false
-style = "bg:color_orange fg:color_fg0"
+style = "bg:color_navy fg:color_fg0"
 
 [os.symbols]
 Windows = "󰍲"
@@ -67,8 +67,8 @@ RedHatEnterprise = "󱄛"
 
 [username]
 show_always = true
-style_user = "bg:color_orange fg:color_fg0"
-style_root = "bg:color_orange fg:color_fg0"
+style_user = "bg:color_navy fg:color_fg0"
+style_root = "bg:color_navy fg:color_fg0"
 format = '[ $user ]($style)'
 
 [directory]
