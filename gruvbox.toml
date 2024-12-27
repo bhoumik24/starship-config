@@ -45,6 +45,19 @@ color_purple = '#b16286'
 color_red = '#cc241d'
 color_yellow = '#d79921'
 
+[palettes.gruvbox_medium]
+color_fg0 = '#fbf1c7'
+color_bg1 = '#3c3836'
+color_bg3 = '#665c54'
+color_blue = '#83a59'
+color_aqua = '#8ec07c'
+color_green = '#b8bb26'
+color_orange = '#fe8019'
+color_purple = '#d3869b'
+color_red = '#fb4934'
+color_yellow = '#fabd2f'
+
+
 [os]
 disabled = false
 style = "bg:color_orange fg:color_fg0"
@@ -114,7 +127,7 @@ style = "bg:color_blue"
 format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 
 [golang]
-symbol = ""
+symbol = "󰟓"
 style = "bg:color_blue"
 format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 
